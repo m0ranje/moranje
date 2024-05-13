@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="https://img.icons8.com/?size=512&id=T5lj3xyPd2x9&format=png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио Настенко Никиты</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <img src="dota.png" alt="Логотип" class="logo">
+</header>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="container hero__container">
+      <div class="hero__about">
+        <h1 class="hero__title">Сайт-портфолио</h1>
+        <h2 class="hero__subtitle">by Настенко Никита</h2>
+        <p class="hero__description">
+          Познаю мир тестирования и путешествий
+          <p>Привет всем, меня зовут Настенко Никита, я обучаюсь в Амурском Педагогическом Колледже №3 на втором курсе, обучаюсь на специальности "Информационные системы программирования". Мои увлечения - компьютерные игры, волейбол, а также активное изучение различных языков программирования.</p>
+        </p>
+
+        <p>Мои контакты: <br>
+          <i class='bx bxs-envelope'></i> <a href="mailto:nikitanastenko30@gmail.com" id="copyEmail">nikitanastenko30@gmail.com</a><br>
+          <i class='bx bxl-instagram'></i> <a href="https://instagram.com/m0ranje">m0ranje</a><br>
+          <i class='bx bxl-telegram'></i> <a href="https://t.me/m0ranje">m0ranje</a><br>
+          <i class='bx bxl-github'></i> <a href="https://github.com/Karina2702?tab=repositories">m0ranje</a><br>
+        </p>
+
+      </div>
+
+      <div class="hero__box">
+        <img class="hero__box-img" src="11.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="certificates">
+    <h2>Мои грамоты</h2>
+    <div class="certificates__grid">
+      <img src="img/certificate1.png" alt="Certificate 1">
+      <img src="img/certificate2.png" alt="Certificate 2">
+      <img src="img/certificate3.png" alt="Certificate 3">
+      <img src="img/certificate4.png" alt="Certificate 4">
+      <img src="img/certificate5.png" alt="Certificate 5">
+    </div>
+  </div>
+
+  <div class="skills">
+    <h2>Мои навыки</h2>
+    <div class="skills__list">
+      <div class="skill">
+        <i class='bx bxl-javascript'></i> JavaScript
+      </div>
+      <div class="skill">
+        <i class='bx bxl-python'></i> Python
+      </div>
+      <div class="skill">
+        <i class='bx bxl-html5'></i> HTML
+      </div>
+      <div class="skill">
+        <i class='bx bxl-css3'></i> CSS
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('copyEmail').addEventListener('click', function() {
+      var email = 'nikitanastenko30@gmail.com';
+      navigator.clipboard.writeText(email);
+      alert('Email скопирован в буфер обмена: ' + email);
+    });
+  </script>
+</body>
+
+</html>
+
+
