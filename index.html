@@ -148,14 +148,24 @@
           Познаю мир тестирования и путешествий
           <p>Привет всем, меня зовут Настенко Никита, я обучаюсь в Амурском Педагогическом Колледже №3 на втором курсе, обучаюсь на специальности "Информационные системы программирования". Мои увлечения - компьютерные игры, волейбол, а также активное изучение различных языков программирования.</p>
         </p>
+
+        <p>Мои контакты: <br>
+          <i class='bx bxs-envelope'></i> <a href="mailto:nikitanastenko30@gmail.com" id="copyEmail">nikitanastenko30@gmail.com</a><br>
+          <i class='bx bxl-instagram'></i> <a href="https://instagram.com/m0ranje">m0ranje</a><br>
+          <i class='bx bxl-telegram'></i> <a href="https://t.me/m0ranje">m0ranje</a><br>
+          <i class='bx bxl-github'></i> <a href="https://github.com/m0ranje">m0ranje</a><br>
+        </p>
+      </div>
+
+      <div class="hero__box">
+        <img class="hero__box-img" src="11.png" alt="">
       </div>
     </div>
   </div>
 
   <div class="certificates">
     <h2>Мои грамоты</h2>
-    
-<div class="certificates__year">
+    <div class="certificates__year">
       <h3>1 курс</h3>
       <div class="certificates__grid">
         <img src="img/certificate1.png" alt="Certificate 1" class="certificate">
@@ -163,21 +173,13 @@
         <img src="img/certificate5.png" alt="Certificate 5" class="certificate">
       </div>
     </div>
-  </div>
-
-  <div class="certificates__year">
+    <div class="certificates__year">
       <h3>2 курс</h3>
       <div class="certificates__grid">
         <img src="img/certificate1_2.jpg" alt="Certificate 3" class="certificate">
         <img src="img/certificate2_2.jpg" alt="Certificate 4" class="certificate">
-        <img src="img/certificate3_2.jpg" alt="Certificate 4" class="certificate">
-        <img src="img/certificate4_2.jpg" alt="Certificate 4" class="certificate">
-        <img src="img/certificate5_2.jpg" alt="Certificate 4" class="certificate">
-        <img src="img/certificate6_2.jpg" alt="Certificate 4" class="certificate">
-        <img src="img/certificate7_2.jpg" alt="Certificate 4" class="certificate">
       </div>
     </div>
-
     <div class="certificates__year">
       <h3>3 курс</h3>
       <div class="certificates__grid">
@@ -204,10 +206,6 @@
       </div>
     </div>
   </div>
-  <div class="skills">
-    <h2>Мои навыки</h2>
-    <!-- Код навыков -->
-  </div>
 
   <!-- Новый раздел "Мои увлечения" -->
   <div class="hobbies">
@@ -229,8 +227,13 @@
     </div>
   </div>
 
+  <!-- Модальное окно -->
+  <div class="modal" id="modal">
+    <span class="modal-close" id="modalClose">&times;</span>
+    <img id="modalImg" src="" alt="Modal Image">
+  </div>
+
   <script>
-    // Открытие модального окна
     const certificates = document.querySelectorAll('.certificate');
     const modal = document.getElementById('modal');
     const modalImg = document.getElementById('modalImg');
@@ -243,7 +246,6 @@
       });
     });
 
-    // Закрытие модального окна
     modalClose.addEventListener('click', () => {
       modal.style.display = 'none';
     });
@@ -257,3 +259,4 @@
 </body>
 
 </html>
+
