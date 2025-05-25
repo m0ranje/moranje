@@ -120,7 +120,7 @@ h3 {
 }
 
 .certificates__grid img {
-  width: 150px; /* Ширина для грамот */
+  width: 100%; /* Ширина для грамот */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -129,6 +129,8 @@ h3 {
   background-color: #f9f9f9;
   padding: 30px 0;
   text-align: center;
+  padding-left: 5cm;
+  padding-right: 5cm;
 }
 
 .certificates h2 {
@@ -143,10 +145,7 @@ h3 {
   margin-top: 20px;
 }
 
-.certificates__grid img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .skills {
   text-align: center;
